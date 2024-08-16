@@ -1,0 +1,11 @@
+1)b1 = b2 = b3  
+2)b4 = b5 = b6 ---------> Horizontal wins
+3)b7 = b8 = b9
+
+
+4)b1 = b4 = b7
+5)b2 = b5 = b8----------> Vertical wins
+6)b3 = b6 = b9
+
+7)b1 = b5 = b9
+8)b3 = b5 = b7----------->Diagonal wins

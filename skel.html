@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>TIC TAC TOE</h1>
+        <h2>Win If You Can !!</h2>
+        <p id = "choice"> error 404</p>
+    <link rel="stylesheet" href="des.css">
+    </head>
+    <body>
+        <audio id = "sound1" src="winx.mp3"></audio>
+        <audio id = "sound2" src="winy.mp3"></audio>
+        <audio id = "sound3" src="turnx.mp3"></audio>
+        <audio id = "sound4" src="turny.mp3"></audio>
+        <script src="iq.js"></script>
+        <div class = "frame">
+        <div class="row" id = "row1">
+                    
+                        <input id = "b1" type = "text" onclick="choiceB1(),winCase()" >
+                    
+                    
+                        <input id = "b2" type = "text" onclick="choiceB2(),winCase()">
+                    
+                    
+                        <input id = "b3" type = "text" onclick="choiceB3(),winCase()">
+                    
+                  
+        </div>      
+        <div class="row" id = "row2">
+                        <input id = "b4" type = "text" onclick="choiceB4(),winCase()">
+                    
+                    
+                        <input id = "b5" type = "text" onclick="choiceB5(),winCase()">
+                    
+                    
+                        <input id = "b6" type = "text" onclick="choiceB6(),winCase()">
+                     
+                 
+                    </div>
+        <div class="row" id = "row2">
+                    
+                        <input id = "b7" type = "text" onclick="choiceB7(),winCase()">
+                    
+                    
+                        <input id = "b8" type = "text" onclick="choiceB8(),winCase()">
+                    
+                    
+                        <input id = "b9" type = "text" onclick="choiceB9(),winCase()">
+                    </div>
+             
+        </div>
+        <input id = "brestart"type="button"value = "PLAY AGAIN" onclick="restartButton()"> 
+           <p id = "winmsg"></p>
+         
+        </div>
+    </body>
+</html>
